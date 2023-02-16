@@ -1,8 +1,33 @@
-root {
+:root {
 	--main-bg-color: #1f2937;
 	--main-txt-color: #f9faf8;
 }
 
 body {
 	font-family: "Roboto", sans-serif;
+	margin: 0px;
+}
+
+header h6 {
+	margin: 0 10px;
+}
+
+header {
+	background-color: var(--main-bg-color);
+	color: var(--main-txt-color);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+#links {
+	list-style: none;
+	display: flex;
+	justify-content: space-evenly;
+	font-size: 18px;
+	color: #e5e7eb;
+}
+
+#links li {
+	margin: 0 1em;
 }
