@@ -10,6 +10,7 @@ body {
 
 header h6 {
 	margin: 0 10px;
+	font-size: 24px;
 }
 
 header {
@@ -18,6 +19,7 @@ header {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+	align-items: center;
 }
 
 #links {
@@ -30,4 +32,5 @@ header {
 
 #links li {
 	margin: 0 1em;
+	font-weight: 100;
 }
