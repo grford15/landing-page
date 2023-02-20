@@ -43,4 +43,21 @@ header {
 #hero {
 	background-color: var(--main-bg-color);
 	color: var(--main-txt-color);
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	height: 350px;
+	padding: 2em;
+}
+
+#hero-content {
+	place-self: center;
+}
+
+#hero-content h2 {
+	font-size: 48px;
+	font-weight: bolder;
+}
+
+#hero-image {
+	place-self: center;
 }
