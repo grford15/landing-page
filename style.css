@@ -8,6 +8,11 @@ body {
 	margin: 0px;
 }
 
+main {
+	display: flex;
+	flex-direction: column;
+}
+
 header h6 {
 	margin: 0 10px;
 	font-size: 24px;
@@ -33,4 +38,9 @@ header {
 #links li {
 	margin: 0 1em;
 	font-weight: 100;
+}
+
+#hero {
+	background-color: var(--main-bg-color);
+	color: var(--main-txt-color);
 }
