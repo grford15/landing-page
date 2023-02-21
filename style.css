@@ -51,6 +51,7 @@ header {
 
 #hero-content {
 	place-self: center;
+	padding: 2em;
 }
 
 #hero-content h2 {
@@ -65,6 +66,14 @@ header {
 
 #hero-image {
 	place-self: center;
+	background-color: #e5e7eb;
+	height: 60%;
+	width: 60%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #1f2937;
+	border-radius: 5px;
 }
 
 button {
