@@ -142,12 +142,26 @@ button {
 
 #action-content {
 	background-color: #3882f6;
-	padding: 1em 6em;
 	border-radius: 5px;
 	color: var(--main-txt-color);
 	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 70%;
+	padding: 1em;
 }
 
 #action-content button {
 	border: var(--main-txt-color) 1px solid;
+	height: fit-content;
+	margin: 1em;
+}
+
+#action-content-text p {
+	margin-top: 0px;
+	font-weight: lighter;
+}
+
+#action-content-text h4 {
+	margin-bottom: 0.5em;
 }
