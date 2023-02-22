@@ -132,3 +132,22 @@ button {
 	align-self: end;
 	margin: 0px;
 }
+
+#action-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 250px;
+}
+
+#action-content {
+	background-color: #3882f6;
+	padding: 1em 6em;
+	border-radius: 5px;
+	color: var(--main-txt-color);
+	display: flex;
+}
+
+#action-content button {
+	border: var(--main-txt-color) 1px solid;
+}
